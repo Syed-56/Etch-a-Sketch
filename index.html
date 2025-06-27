@@ -8,13 +8,32 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-    <div id="intro-container">
+    <div class="main-container" id="intro-container">
         <h1>Welcome to Etch-a-Sketch</h1>
         <h6>A dynamic Sketchpad where you can bring your imagination to the canvas by just hovering</h6>
-        <button id="start-button"><a href="">Etch Your Sketch</a></button>
+        <button id="start-button"><a href="#size-container">Etch Your Sketch</a></button>
     </div>
 
+    <div class="main-container" id="size-container">
+        <h2>Choose Your Canvas Size</h2>
+        <div id="size-buttons">
+            <button class="size-button" id="small"><a href="#canvas-container">Small (16x16)</a></button>
+            <button class="size-button" id="medium"><a href="#canvas-container">Medium (32x32)</a></button>
+            <button class="size-button" id="large"><a href="#canvas-container">Large (64x64)</a></button>
+        </div>
+        <br>
+        <p>Or Make your own Custom Canvas</p>
+        <div id="inputContainer">
+            <input type="text" placeholder="Enter size (e.g., 40)">
+            <button id="custom-size-button"><a href="#canvas-container">Create</a></button>
+        </div>
+    </div>
 
+    <div class="main-container" id="canvas-container">
+        <h2>Your Sketchpad</h2>
+        <div id="canvas"></div>
+        <button id="clear-button">Clear Canvas</button>
+    </div>
 
     <script src="script.js"></script>
 </body>
