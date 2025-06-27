@@ -179,6 +179,7 @@ a {
    flex-direction: column;
    width: max-content;
    margin: 20px auto;
+   border-radius: 10px;
 }
   
 .row {
@@ -190,4 +191,22 @@ a {
     background-color: #f0f0f0;
     border: 1px solid #ccc;
     flex: 1;
+}
+
+footer {
+    background-color: #3f3838;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-size: large;
+    border-bottom: 1px black solid;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 70px;
+}
+footer > .name, .contact {
+    flex: 1;
+    margin: 10px;
 }
