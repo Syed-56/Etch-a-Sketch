@@ -30,9 +30,15 @@
     </div>
 
     <div class="main-container" id="canvas-container">
-        <h2>Your Sketchpad</h2>
-        <div id="canvas"></div>
-        <button id="clear-button">Clear Canvas</button>
+        <div id="tools">
+            <input type="color" class="c-picker" id="colorPicker">
+            <button id="classic-button" onclick="setMode()">Classic</button>
+            <button id="clear-button" onclick="clearGrid()">Clear</button>
+            <button id="changeSize-button" onclick="setMode()">Change Size</button>
+            <button id="eraser-button" onclick="setMode()">Eraser</button>
+            <button id="rainbow-button" onclick="setMode()">Rainbow</button>
+        </div>
+        <div id="canvas">Canvas</div>
     </div>
 
     <script src="script.js"></script>
