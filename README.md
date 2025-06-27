@@ -35,4 +35,4 @@ Created by **Syed Sultan Ahmed**
 
 ---
 
-&copy; 2023 Syed Sultan Ahmed. All rights reserved.
+&copy; 2025 Syed Sultan Ahmed. All rights reserved.
